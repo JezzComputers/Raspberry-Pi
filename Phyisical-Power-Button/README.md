@@ -11,7 +11,7 @@
 
 If you need to uninstall the power button script in order to use GPIO3 for another project or something:
 
-1. Run the uninstall script: `./pi-power-button/script/uninstall`
+1. Run the uninstall script: `./Raspberry-Pi/Phyisical-Power-Button/uninstall`
 
 ## Hardware
 
