@@ -1,5 +1,4 @@
 # Phyisical-Power-Button
-
 ## Installation
 
 1. Open the Raspberry Pi terminal
