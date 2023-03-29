@@ -20,6 +20,6 @@ At a minimum, you'll need a [normally-open (NO) power button](https://www.amazon
 Connect the power button to Pin 5 (GPIO 3/SCL) and Pin 6 (GND) as shown in this diagram:
 Also if your button has LEDs connect those pins to power and ground.
 
-![Connection Diagram](https://raw.githubusercontent.com/Howchoo/pi-power-button/master/diagrams/pinout.png)
+![Connection Diagram](https://raw.githubusercontent.com/JezzComputers/Raspberry-Pi/main/Phyisical-Power-Button/pinout.png)
 
 For the GND connection you can use [any other ground pin you want](https://pinout.xyz/).
