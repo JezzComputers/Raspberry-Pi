@@ -1,7 +1,5 @@
 # Phyisical-Power-Button
 
-Scripts used in our official [Raspberry Pi power button guide](https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi).
-
 ## Installation
 
 1. Open the Raspberry Pi terminal
