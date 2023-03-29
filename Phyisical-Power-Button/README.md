@@ -2,7 +2,7 @@
 ## Installation
 
 1. Open the Raspberry Pi terminal
-1. Enter this command to clone the repo: `git clone https://github.com/Howchoo/pi-power-button.git`
+1. Enter this command to clone the repo: `git clone https://github.com/JezzComputers/Raspberry-Pi.git`
 1. Optional: Edit line 9/10 in listen-for-shutdown.py to your preferred pin
 1. Run the setup script: `./pi-power-button/script/install`
 
