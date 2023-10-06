@@ -2,7 +2,5 @@
 ## Installation
 
 1. Open the Raspberry Pi terminal
-1. Enter this command to clone the repo: `git clone https://github.com/JezzComputers/Raspberry-Pi.git`
-2. Open the 'Phyisical-Power-Button' folder and all the scripts will be there
-4. Optional: Edit line 9/10 in listen-for-shutdown.py to your preferred pin
-5. Run the setup script: `./Raspberry-Pi/Phyisical-Power-Button/install`
+2. Enter this command to fully update your raspberry pi: `sudo apt update -y && sudo apt update --fix-missing -y && sudo apt-get update -y && sudo apt-get update --fix-missing -y && sudo apt upgrade -y && sudo apt upgrade --fix-missing -y && sudo apt full-upgrade -y && sudo apt full-upgrade --fix-missing -y && sudo apt autoremove -y && sudo apt autoremove --fix-missing -y && sudo apt clean -y`
+3. Enter this command to install Samba and Samba Common Bin: `sudo apt install samba samba-common-bin -y`
