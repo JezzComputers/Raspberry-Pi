@@ -7,11 +7,11 @@
 4. Next we need to set a folder to share. To do so enter this command: `sudo nano /etc/samba/smb.conf`
 5. Navigate to the bottom of this file and add these lines (Make sure you change the YourPiUsername to you Raspberry Pi's username);
 
-[Shared-Pi]
-path=/home/YourPiUsername
-writeable=Yes
-create mask=0777
-directory mask=0777
+[Shared-Pi]  
+path=/home/YourPiUsername  
+writeable=Yes  
+create mask=0777  
+directory mask=0777  
 public=no
 
 6. 
