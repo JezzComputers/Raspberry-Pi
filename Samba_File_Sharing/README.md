@@ -23,3 +23,6 @@ public=no
 
 1. First we need to find the ip address of our pi using this command: `hostname -I` make note of the first output
 2. Now back in your windows pc navigate to the this pc folder and then right click and press `Add a network location`
+3. Then `Next` then `Choose a custom network location` and `Next`
+4. Next enter your raspberry pi's ip address after two backslashes with the folder you shared after `\\` eg. `\\192.168.1.219\Home`
+5. Now you Pi should appear in the this pc menu on your windows device
