@@ -14,7 +14,7 @@ create mask=0777
 directory mask=0777  
 public=no
 
-6. Press `ctrl+x` then when prompted `y` then Press `enter`
+6. Press `ctrl+x` then when prompted `y` then press `enter`
 7. Now we need to add a samba password. to do so enter this command `sudo smbpasswd -a YourPiUsername` (Again make sure you change the YourPiUsername to you Raspberry Pi's username)
 8. When prompted enter your desired password (Note the password you enter will not show up on the screen but is still being entered)
 9. Then restart smb using this command `sudo systemctl restart smbd`
