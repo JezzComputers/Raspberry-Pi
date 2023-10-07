@@ -8,7 +8,7 @@
 5. Navigate to the bottom of this file and add these lines (Make sure you change the YourPiUsername to you Raspberry Pi's username);
 
 [Shared-Pi]  
-path=/home/YourPiUsername  
+path=/Home/YourPiUsername  
 writeable=Yes  
 create mask=0777  
 directory mask=0777  
