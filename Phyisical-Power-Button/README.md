@@ -23,7 +23,7 @@ Run the uninstall script:
 
 ## Hardware
 
-At a minimum, you'll need a [normally-open (NO) power button]([Toggle Switch - Amazon](https://www.amazon.com/Gebildet-Stainless-Momentary-Normally-Waterproof/dp/B088CW8JYR?th=1)), some jumper wires, and a soldering iron.
+At a minimum, you'll need a [Toggle Switch](https://www.amazon.com/Gebildet-Stainless-Momentary-Normally-Waterproof/dp/B088CW8JYR?th=1), some jumper wires, and a soldering iron.
 
 Connect the power button to Pin 5 (GPIO 3/SCL) and Pin 6 (GND) as shown in this diagram:
 Also if your button has LEDs connect those pins to power and ground.
