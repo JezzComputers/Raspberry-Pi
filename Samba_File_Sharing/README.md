@@ -20,15 +20,15 @@ sudo nano /etc/samba/smb.conf
 
 Navigate to the bottom of this file and add these lines (Make sure you change the YourPiUsername to you Raspberry Pi's username);
 ```service
-[Shared-Pi]  
-path=/Home/YourPiUsername  
-writeable=Yes  
-create mask=0777  
-directory mask=0777  
+[Shared-Pi]
+path=/Home/YourPiUsername
+writeable=Yes
+create mask=0777
+directory mask=0777
 public=no
 ```
 
-You will also need to edit the line under [homes] `read only = yes` to `read only = no`
+You will also need to edit the line under [homes] `read only = yes` to `read only = no` and `browseable = no` to `browseable = yes`
 Press `ctrl+x` then when prompted `y` then press `enter`
 Now we need to add a samba password. to do so enter this command:
 ```bash
