@@ -47,5 +47,8 @@ sudo systemctl restart smbd
 First we need to find the ip address of our pi using this command: `hostname -I` make note of the first output
 Now back in your windows pc navigate to the this pc folder and then right click and press `Add a network location`
 Then `Next` then `Choose a custom network location` and `Next`
-Next enter your raspberry pi's ip address after two backslashes with the folder you shared eg. `\\192.168.1.219\Shared-Pi`
+Next enter your raspberry pi's ip address after two backslashes with the folder you shared eg.
+```
+\\192.168.1.219\Shared-Pi
+```
 Now you Pi should appear in the this pc menu on your windows device
