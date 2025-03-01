@@ -21,7 +21,7 @@ sudo nano /etc/samba/smb.conf
 Navigate to the bottom of this file and add these lines (Make sure you change the YourPiUsername to you Raspberry Pi's username);
 ```service
 [Shared-Pi]
-path=/Home/YourPiUsername
+path=/home/YourPiUsername
 writeable=Yes
 create mask=0777
 directory mask=0777
