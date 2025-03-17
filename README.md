@@ -1,8 +1,8 @@
-# Raspberry Pi 4/5 Overclocking and Power Button Project
+# Raspberry Pi 4/5 Overclocking and Power Button
 
 **Overview**
 
-This project provides a comprehensive solution for overclocking the Raspberry Pi 4 and 5, while also adding a physical power button for safe shutdown and reboot. The project utilizes the Samba software to achieve stable and efficient overclocking, and includes a custom-designed power button circuit for seamless integration with the Raspberry Pi.
+Describes how to: overclock the Raspberry Pi 4/5, add a physical power button for safe shutdown and reboot or use samba for remote file access
 
 **Features**
 
