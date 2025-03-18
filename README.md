@@ -1,31 +1,34 @@
-# Raspberry Pi Improvements
+# Improvements for the Raspberry Pi 4 and 5
 
-**Overview**
+### **Overview**
 
-Describes how to: overclock the Raspberry Pi 4/5, add a physical power button for safe shutdown and reboot or use samba for remote file access
+**How to:**
+* Overclock the Raspberry Pi 4/5
+* Add a physical power button
+* Use file sharing
 
-**Features**
+### **Improvements**
 
 * Stable overclocking of the Raspberry Pi 4 and 5
 * File sharing using samba
-* Custom-designed physical power button for safe shutdown and reboot
-* Compatible with the latest Raspberry Pi 4 and 5 models
-* Easy-to-follow instructions for setup and installation (available in separate documentation)
+* Physical power button for safe shutdown and reboot
 
-**What's Included**
+### **What's Included**
 
 * Configuration files for overclocking the Raspberry Pi 4/5 and for samba file sharing
-* Custom-designed power button circuit schematics and wiring instructions
+* Power button circuit schematics and wiring instructions
 * Example code for integrating the power button with the Raspberry Pi
 
-**Why This Project?**
+### **Why?**
 
-Overclocking the Raspberry Pi can significantly improve its performance, but it requires careful configuration to ensure stability and prevent overheating. This project provides a reliable and easy-to-use solution for overclocking the Raspberry Pi 4 and 5.
+* Overclocking provides significant improvements to performance
+* A physical power button allows for safer shutdown.
+* Remote file access lets you transfer multiple files between a computer and your raspberry pi with only one command, removing the need for janky cable setups.
 
-**Getting Started**
+### **Getting Started**
 
-To get started with this project, please refer to the separate instructions document, which provides a step-by-step guide to setting up and installing the overclocking and power button solution.
+Refer to the sepearate instructions document provided.
 
-**Contributing**
+### **Contributing**
 
-Contributions to this project are welcome! If you have any suggestions, bug reports, or improvements, please feel free to submit a pull request or issue.
+Contributions to this project are welcome! If you have any suggestions, bug reports, or improvements, feel free to submit a pull request or issue.
