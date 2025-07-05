@@ -28,9 +28,9 @@ sudo nano /boot/firmware/config.txt
 2. Add the following lines at the end of the file:
 
 ```
-over_voltage=6
-arm_freq=2000
-gpu_freq=700
+over_voltage=6 # Voltage boost (default is 0)
+arm_freq=2000 # CPU to 2.0 GHz (default is 1.5 GHz)
+gpu_freq=750 # GPU to 750 MHz (default is 500 MHz)
 ```
 
 3. Save and exit the file (Ctrl+X, then Y, then Enter).
@@ -52,9 +52,9 @@ sudo nano /boot/firmware/config.txt
 2. Add the following lines at the end of the file:
 
 ```
-over_voltage_delta=50000
-arm_freq=3000
-gpu_freq=1000
+over_voltage_delta=50000 # Adds ~0.05V to support higher frequencies
+arm_freq=3000 # CPU to 3.0 GHz (default is 2.4 GHz)
+gpu_freq=1000 # GPU to 1.0 GHz (default ~910 MHz)
 ```
 
 3. Save and exit the file (Ctrl+X, then Y, then Enter).
