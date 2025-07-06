@@ -72,7 +72,7 @@ To monitor your Raspberry Pi's performance and ensure stability:
 1. Install stress-testing tools:
 
 ```bash
-sudo apt-get install sysbench
+sudo apt install stress
 ```
 
 2. Monitor CPU clock speed:
@@ -84,7 +84,7 @@ watch -n 1 vcgencmd measure_clock arm
 3. Run a stress test:
 
 ```bash
-sysbench --test=cpu --cpu-max-prime=20000 --num-threads=4 run
+stress --cpu 4 --timeout 60
 ```
 
 4. Monitor temperature:
