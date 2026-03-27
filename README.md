@@ -24,7 +24,7 @@ Overclocking the Raspberry Pi can significantly improve its performance, but it 
 
 **Getting Started**
 
-To get started with this project, please refer to the separate instructions document, which provides a step-by-step guide to setting up and installing the overclocking and power button solution.
+To get started with this project, please refer to the separate instructions README in each folder, which provides a step-by-step guide to setting up and installing the overclocking and power button solution.
 
 **Contributing**
 
